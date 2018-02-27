@@ -1,8 +1,0 @@
-{
-  "id": "elixir",
-  "type": "wedeploy/elixir",
-  "hooks": {
-    "build": "mix deps.get && npm install && node node_modules/brunch/bin/brunch build",
-    "start": "mix compile && mix phoenix.server"
-  }
-}
